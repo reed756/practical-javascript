@@ -3,30 +3,31 @@
 <HTML>
 
   <head>
+    <link rel="stylesheet" href="style.css">
     <title>Practical-Javascript</title>
   </head>
 
   <body>
     <h1>Todo List</h1>
-    
+  
     <div>
-      <button onclick="handlers.toggleAll()">Toggle All</button>
+      <button class="buttons" onclick="handlers.toggleAll()">Toggle All</button>
     </div>
 
     <div>
-      <button onclick="handlers.addTodo()">Add</button>
-      <input id="addTodoTextInput" type="text">
+      <button class="buttons" onclick="handlers.addTodo()">Add</button>
+      <input class="inputs" id="addTodoTextInput" type="text">
     </div>
 
     <div>
-      <button onclick="handlers.changeTodo()">Change Todo</button>
-      <input id="changeTodoPositionInput" type="number">
-      <input id="changeTodoTextInput" type="text">
+      <button class="buttons" onclick="handlers.changeTodo()">Change Todo</button>
+      <input class="inputs" id="changeTodoPositionInput" type="number">
+      <input class="inputs" id="changeTodoTextInput" type="text">
     </div>
 
     <div>
-      <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
-      <input id="toggleCompletedPositionInput" type="number">
+      <button class="buttons" onclick="handlers.toggleCompleted()">Toggle Completed</button>
+      <input class="inputs" id="toggleCompletedPositionInput" type="number">
     </div>
 
     <ul>

@@ -1,0 +1,23 @@
+body {
+    background-color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+    font: Haettenschweiler;
+    font-size: 5em;
+}
+
+.buttons {
+    display: block;
+    margin: auto;
+    width: auto;
+}
+
+.inputs {
+    display: block;
+    margin: auto;
+    width: auto;
+}
